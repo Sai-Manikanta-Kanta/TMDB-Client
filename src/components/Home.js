@@ -39,10 +39,10 @@ export default function Home() {
         }
 
     }, [btnDefault])
-let toggleImage;
+    let toggleImage;
     function handleTrendingButton() {
         if (btnDefault === "today") {
-            
+
             setBtnDefault("this week")
         }
         else {
@@ -56,16 +56,16 @@ let toggleImage;
 
 
 
-  const imageBaseUrl='https://image.tmdb.org/t/p/w500'
+    const imageBaseUrl = 'https://image.tmdb.org/t/p/w500'
     const list = trendingMoviesData.map(item =>
         <div><li className="list-item">
             <h1 className="movie-name">Title:{item.title ? item.title : item.name}</h1>
-            <img className="star"   src={star}/>
+            <img className="star" src={star} />
             <h2 className="rating"><span>Rating:{item.vote_average}/10</span></h2>
             <h4 className="release-date">Release Date:{item.release_date}</h4>
             <h5 className="overview">Description: {item.overview}</h5>
-            <img className="poster"    src={`${imageBaseUrl}${item.poster_path}`}  alt="Image"     / >
-            </li></div>)
+            <img className="poster" src={`${imageBaseUrl}${item.poster_path}`} alt="Image" />
+        </li></div>)
 
     let btn;
     if (inputVal === "") {
@@ -74,7 +74,7 @@ let toggleImage;
     else {
         btn = <Link to={`/search/${inputVal}`}><button className="search-button">Search</button></Link>
     }
-   
+
 
     return (
         <div className="whole-wrapper">
@@ -82,7 +82,7 @@ let toggleImage;
             <div className="searchBar-button-wrapper">
                 <span className="search-bar-wrapper">
                     <input className="search-bar" placeholder="" value={inputVal} onChange={handleSearchChange} /></span>
-                    <span><img className="search-icon"   src={search} /></span>
+                <span><img className="search-icon" src={search} /></span>
                 <span> {btn}</span>
             </div>
             <div className="trending-wrapper">

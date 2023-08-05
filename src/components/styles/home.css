@@ -1,15 +1,16 @@
 .whole-wrapper {
-   
+
     background-color: #110E47;
     width: 100%;
-    
+
 
 }
+
 .whole-wrapper1 {
-   
+
     background-color: #110E47;
     width: 100%;
-    
+
 
 }
 
@@ -224,16 +225,17 @@ li:hover {
 
 
 /* Styles for screens with width up to 720px */
-@media  screen and (max-width: 900px) {
-    .overview{
-       display: none;
+@media screen and (max-width: 900px) {
+    .overview {
+        display: none;
     }
+
     .list-wrapper {
 
-       
+
         width: 100%;
         background-color: #110E47;
-       display: grid;
+        display: grid;
     }
 
 
@@ -242,20 +244,20 @@ li:hover {
 
 
     .list-item {
-       
+
         border: 2px solid skyblue;
         background-color: azure;
         position: relative;
         width: 50%;
         left: 15vw;
-       
-       
-      
-      
-       
+
+
+
+
+
     }
-    .poster
-    {
+
+    .poster {
         width: 25%;
         height: 87%;
     }
@@ -266,30 +268,33 @@ li:hover {
         text-align: start;
         font-size: 1.5vw;
     }
+
     .star {
         position: relative;
-        
+
         right: 4vw;
         width: 2vw;
         height: 2vw;
         background-color: wheat;
     }
-    
+
     .rating {
         position: relative;
         left: 3vw;
         bottom: 3.8vw;
         font-size: 1.5vw;
-    
-    
+
+
     }
+
     .release-date {
         position: relative;
         right: -4vw;
         bottom: 4vw;
         font-size: 1.5vw;
-    
+
     }
+
     .search-bar {
         position: absolute;
         left: 20%;
@@ -302,9 +307,10 @@ li:hover {
         color: #110E47;
         background-color: azure;
         font-family: sans-serif;
-    
-    
+
+
     }
+
     .search-icon {
         background-color: aquamarine;
         position: relative;
@@ -314,20 +320,22 @@ li:hover {
         width: 2vw;
         height: 2vw;
         background-color: azure;
-    
+
     }
+
     .search-button {
         position: absolute;
         left: 48%;
         top: 25%;
         width: 15vw;
         height: 50%;
-    
+
         border-radius: 7px;
         color: #110E47;
         background-color: azure;
         font-size: 1.5vw;
     }
+
     .trending {
         position: absolute;
         top: -1vw;
@@ -340,7 +348,7 @@ li:hover {
         line-height: normal;
         letter-spacing: 0.32px;
     }
-    
+
     .toggle {
         position: absolute;
         left: 45vw;
@@ -352,6 +360,7 @@ li:hover {
         background-color: azure;
         border-radius: 5px;
     }
+
     .matching-text {
         color: bisque;
         position: relative;
@@ -360,7 +369,7 @@ li:hover {
         font-size: 3vw;
         left: -12vw;
     }
-    
+
     .home-icon {
         background-color: bisque;
         position: relative;
@@ -368,10 +377,9 @@ li:hover {
         border: 3px solid red;
         border-radius: 10px;
     }
-    
-    
-    
-    
-   
-  }
-  
+
+
+
+
+
+}
