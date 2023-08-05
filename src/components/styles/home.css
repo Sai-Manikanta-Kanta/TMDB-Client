@@ -1,0 +1,377 @@
+.whole-wrapper {
+   
+    background-color: #110E47;
+    width: 100%;
+    
+
+}
+.whole-wrapper1 {
+   
+    background-color: #110E47;
+    width: 100%;
+    
+
+}
+
+/* Search bar area */
+.searchBar-button-wrapper {
+    position: absolute;
+    background-color: #110E47;
+    position: absolute;
+    width: 100%;
+    height: 5vw;
+    top: 0%;
+
+
+
+}
+
+.search-bar {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    width: 60vw;
+    height: 45%;
+    border: 2px solid blue;
+    border-radius: 15px;
+    font-size: 1.8vw;
+    color: #110E47;
+    background-color: azure;
+    font-family: sans-serif;
+
+
+}
+
+.search-button {
+    position: absolute;
+    left: 73%;
+    top: 25%;
+    width: 15vw;
+    height: 50%;
+
+    border-radius: 7px;
+    color: #110E47;
+    background-color: azure;
+    font-size: 1.5vw;
+}
+
+.search-button:hover,
+.toggle:hover {
+    background-color: cornflowerblue;
+}
+
+.search-bar:focus {
+    border: 5px solid red;
+}
+
+.trending-wrapper {
+    position: absolute;
+
+
+    top: 5vw;
+    height: 3.5vw;
+    width: 100%;
+
+    background-color: #110E47;
+}
+
+.trending {
+    position: absolute;
+    top: -1vw;
+    left: 2vw;
+    color: cornflowerblue;
+    font-family: Merriweather;
+    font-size: 1.8vw;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.toggle {
+    position: absolute;
+    left: 25vw;
+    top: 1.3vw;
+    width: 7vw;
+    height: 2.5vw;
+    font-size: 1vw;
+    color: #110E47;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.list-wrapper {
+
+    position: absolute;
+    top: 8.5vw;
+    width: 100%;
+    background-color: #110E47;
+}
+
+.list-item {
+    border: 2px solid skyblue;
+    background-color: azure;
+    position: relative;
+    left: 5vw;
+    width: 80vw;
+    height: 23vw;
+    margin-top: 1vw;
+    border-radius: 15px;
+}
+
+.poster {
+    position: absolute;
+    left: 10vw;
+    top: 1vw;
+    z-index: 1;
+    width: 15%;
+    height: 87%;
+    border: 2px solid #110E47;
+    border-radius: 15px;
+    left: 3vw;
+}
+
+.movie-name {
+    position: relative;
+    left: 17vw;
+    text-align: start;
+    font-size: 2vw;
+}
+
+.star {
+    position: relative;
+    right: 22vw;
+    width: 2vw;
+    height: 2vw;
+    background-color: wheat;
+}
+
+.rating {
+    position: relative;
+    right: 14vw;
+    bottom: 3.5vw;
+    font-size: 1.5vw;
+
+
+}
+
+.release-date {
+    position: relative;
+    right: 14vw;
+    bottom: 4vw;
+    font-size: 1vw;
+
+}
+
+.overview {
+    display: block;
+    position: relative;
+    color: #110E47;
+    bottom: 5vw;
+    font-size: 1vw;
+    width: 70%;
+    left: 20vw;
+    text-align: justify;
+
+}
+
+li h2 span {
+    background-color: wheat;
+}
+
+li {
+    list-style: none;
+}
+
+.search-icon {
+    background-color: aquamarine;
+    position: relative;
+    border-radius: 50px;
+    left: 19vw;
+    bottom: -1.5vw;
+    width: 2vw;
+    height: 2vw;
+    background-color: azure;
+
+}
+
+.matching-text {
+    color: bisque;
+    position: relative;
+    right: 29vw;
+    top: 4.5vw;
+    font-size: 3vw;
+    left: -20vw;
+}
+
+.home-icon {
+    background-color: bisque;
+    position: relative;
+    left: 32vw;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+.home-icon:hover {
+    background-color: red;
+    border: 3px solid bisque;
+}
+
+li:hover {
+    background-color: aquamarine;
+
+}
+
+
+/* Styles for screens with width up to 720px */
+@media  screen and (max-width: 900px) {
+    .overview{
+       display: none;
+    }
+    .list-wrapper {
+
+       
+        width: 100%;
+        background-color: #110E47;
+       display: grid;
+    }
+
+
+
+
+
+
+    .list-item {
+       
+        border: 2px solid skyblue;
+        background-color: azure;
+        position: relative;
+        width: 50%;
+        left: 15vw;
+       
+       
+      
+      
+       
+    }
+    .poster
+    {
+        width: 25%;
+        height: 87%;
+    }
+
+    .movie-name {
+        position: relative;
+        left: 17vw;
+        text-align: start;
+        font-size: 1.5vw;
+    }
+    .star {
+        position: relative;
+        
+        right: 4vw;
+        width: 2vw;
+        height: 2vw;
+        background-color: wheat;
+    }
+    
+    .rating {
+        position: relative;
+        left: 3vw;
+        bottom: 3.8vw;
+        font-size: 1.5vw;
+    
+    
+    }
+    .release-date {
+        position: relative;
+        right: -4vw;
+        bottom: 4vw;
+        font-size: 1.5vw;
+    
+    }
+    .search-bar {
+        position: absolute;
+        left: 20%;
+        top: 20%;
+        width: 25vw;
+        height: 45%;
+        border: 2px solid blue;
+        border-radius: 15px;
+        font-size: 1.8vw;
+        color: #110E47;
+        background-color: azure;
+        font-family: sans-serif;
+    
+    
+    }
+    .search-icon {
+        background-color: aquamarine;
+        position: relative;
+        border-radius: 50px;
+        left: -5vw;
+        bottom: -1.5vw;
+        width: 2vw;
+        height: 2vw;
+        background-color: azure;
+    
+    }
+    .search-button {
+        position: absolute;
+        left: 48%;
+        top: 25%;
+        width: 15vw;
+        height: 50%;
+    
+        border-radius: 7px;
+        color: #110E47;
+        background-color: azure;
+        font-size: 1.5vw;
+    }
+    .trending {
+        position: absolute;
+        top: -1vw;
+        left: 20vw;
+        color: cornflowerblue;
+        font-family: Merriweather;
+        font-size: 1.8vw;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 0.32px;
+    }
+    
+    .toggle {
+        position: absolute;
+        left: 45vw;
+        top: 1.3vw;
+        width: 7vw;
+        height: 2.5vw;
+        font-size: 1vw;
+        color: #110E47;
+        background-color: azure;
+        border-radius: 5px;
+    }
+    .matching-text {
+        color: bisque;
+        position: relative;
+        right: 29vw;
+        top: 4.5vw;
+        font-size: 3vw;
+        left: -12vw;
+    }
+    
+    .home-icon {
+        background-color: bisque;
+        position: relative;
+        left: 15vw;
+        border: 3px solid red;
+        border-radius: 10px;
+    }
+    
+    
+    
+    
+   
+  }
+  
